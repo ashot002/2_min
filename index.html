@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.find {
+			width: 300px;
+			height: 381px;
+			border-radius: 28px;
+			background-color: aliceblue;
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			border: 2px solid;
+			align-items: center;
+			font-family: sans-serif;
+		}
+
+		#arr {
+			width: 200px;
+			height: 30px;
+			font-size: 15px;
+			border-radius: 11px;
+		}
+
+		label {
+			color: currentcolor;
+			font-size: 20px;
+			font-style: oblique;
+		}
+
+		#click {
+			width: 165px;
+			height: 35px;
+			font-size: 19px;
+			border-radius: 12px;
+			cursor: pointer;
+		}
+
+		h2 {
+			font-size: 18px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="find">
+		<div class="as-div">
+			<h2 id="answer">
+				Մինիմում `<br> Երկրորդ մինիմում ՝
+			</h2>
+		</div>
+		<div class="mutq">
+			<label for="arr">Մուտքագտել թվերը</label> <br>
+			<input id="arr" placeholder="Օրինակ 1,20,3,10,-10" type="text">
+		</div>
+		<button id="click">Գտնել</button>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
